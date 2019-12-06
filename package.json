@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha test --recursive --colors"
   },
+  "bin": {
+    "awsgo": "./bin/awsgo.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ganeshnaidu/awsgo.git"
@@ -13,11 +16,11 @@
   "keywords": [
     "aws",
     "cli",
-    "links",
     "user guide",
     "developer guide",
     "api",
-    "pricing"
+    "pricing",
+    "links"
   ],
   "author": "ganesh naidu",
   "license": "MIT",
@@ -26,6 +29,7 @@
   },
   "homepage": "https://github.com/ganeshnaidu/awsgo#readme",
   "dependencies": {
+    "shelljs": "^0.8.3",
     "yargs": "^15.0.2"
   }
 }

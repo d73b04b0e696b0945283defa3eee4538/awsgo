@@ -2,9 +2,11 @@
     "ec2": {
         "api": "https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/ec2/",
-        "console": "",
-        "user": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "console": "https://console.aws.amazon.com/ec2/",
+        "user-guide": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
         "pricing": "https://aws.amazon.com/ec2/pricing/"
     },
-    "s3": {}
+    "s3": {
+        "console": "https://console.aws.amazon.com/s3"
+    }
 }
