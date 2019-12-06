@@ -5,15 +5,12 @@ const yargs = require('yargs');
 const services = require('./services.json');
 
 // Commands
-// -> services
+// -> Services
+//  -> Options 
 yargs
     .command('* <service>', 'Open <service> API, CLI, console, developer, pricing or user guide page', (yargs) => {
         return yargs
             .choices('service', Object.keys(services))
-            // .positional('service', {
-            //     type: 'string',
-            //     choices: Object.keys(services)
-            // })
             .options({
                 a: {
                     alias: 'api',
