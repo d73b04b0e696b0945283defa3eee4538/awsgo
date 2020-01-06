@@ -38,15 +38,14 @@ function main(argv) {
     const service = argv.service;
 
     argv.service
-        ? openServicePage(browser, argv)
-        : openMiscPage(browser, argv);
+        ? openServicePage(argv, browser, services[argv.service])
+        : open(browser, miscellaneous[argv.command]);
 
     process.exit(0);
 }
 
 // Open service webpage
-function openServicePage(browser, argv) {
-    const serviceLinks = services[argv.service];
+function openServicePage(argv, browser, serviceLinks) {
     const targetLinks = [];
 
     // Traverse through service links and build targetLinks based on provided options  
@@ -83,17 +82,6 @@ function openServicePage(browser, argv) {
     }
 
     open(browser, targetLinks);
-}
-
-// Open miscellaneous webpage
-function openMiscPage(browser, argv) {
-    switch (argv.command) {
-        case "calc":
-            open(browser, miscellaneous['calc']);
-            break;
-        default:
-            throw Error('Unknown command');
-    }
 }
 
 // Open webpage(s). Silent
