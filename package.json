@@ -1,0 +1,35 @@
+{
+  "name": "awsgo",
+  "version": "1.0.0",
+  "description": "awsgo makes AWS cli command reference, api reference, management console, pricing, user and developer's guide links avilable to open from your command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive --colors"
+  },
+  "bin": {
+    "awsgo": "./bin/awsgo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshnaidu/awsgo.git"
+  },
+  "keywords": [
+    "aws",
+    "cli",
+    "user guide",
+    "developer guide",
+    "api",
+    "pricing",
+    "links"
+  ],
+  "author": "ganesh naidu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshnaidu/awsgo/issues"
+  },
+  "homepage": "https://github.com/ganeshnaidu/awsgo#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yargs": "^15.0.2"
+  }
+}
