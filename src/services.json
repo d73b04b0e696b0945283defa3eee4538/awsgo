@@ -1,20 +1,101 @@
 {
     "accessanalyzer": {},
-    "acm": {},
-    "acm-pca": {},
-    "alexaforbusiness": {},
-    "amplify": {},
-    "apigateway": {},
+    "acm": {
+        "api": "https://docs.aws.amazon.com/acm/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/acm/index.html",
+        "console": "https://console.aws.amazon.com/acm/home",
+        "getting-started": "https://docs.aws.amazon.com/acm/latest/userguide/gs.html",
+        "pricing": "https://aws.amazon.com/certificate-manager/pricing",
+        "user-guide": "https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html"
+    },
+    "acm-pca": {
+        "api": "https://docs.aws.amazon.com/acm-pca/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/acm-pca/index.html",
+        "console": "https://console.aws.amazon.com/acm-pca/home?#/firstrunscreen",
+        "pricing": "https://docs.aws.amazon.com/acm-pca/latest/userguide/PcaPricing.html",
+        "user-guide": "https://docs.aws.amazon.com/acm-pca/latest/userguide/PcaWelcome.html"
+    },
+    "alexaforbusiness": {
+        "api": "https://docs.aws.amazon.com/a4b/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/alexaforbusiness/index.html",
+        "console": "https://console.aws.amazon.com/a4b/home",
+        "getting-started": "https://docs.aws.amazon.com/a4b/latest/ag/getting-started.html",
+        "pricing": "https://aws.amazon.com/alexaforbusiness/pricing",
+        "user-guide": "https://docs.aws.amazon.com/a4b/latest/ag/what-is.html"
+    },
+    "amplify": {
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/amplify/index.html",
+        "console": "https://console.aws.amazon.com/amplify/home",
+        "getting-started": "https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/amplify/console/pricing",
+        "user-guide": "https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html"
+    },
+    "apigateway": {
+        "api": "https://docs.aws.amazon.com/apigateway/api-reference/",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/apigateway/index.html",
+        "console": "https://console.aws.amazon.com/apigateway/main/apis",
+        "developer-guide": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/api-gateway/pricing"
+    },
     "apigatewaymanagementapi": {},
-    "apigatewayv2": {},
+    "apigatewayv2": {
+        "api": "https://docs.aws.amazon.com/apigatewayv2/latest/api-reference/api-reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/apigatewayv2/index.html",
+        "console": "https://console.aws.amazon.com/apigateway/main/apis",
+        "developer-guide": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/api-gateway/pricing"
+    },
     "appconfig": {},
-    "application-autoscaling": {},
+    "application-autoscaling": {
+        "api": "https://docs.aws.amazon.com/autoscaling/application/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/application-autoscaling/index.html",
+        "console": "https://console.aws.amazon.com/ec2/autoscaling/home",
+        "getting-started": "https://docs.aws.amazon.com/autoscaling/application/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/autoscaling/pricing",
+        "user-guide": "https://docs.aws.amazon.com/autoscaling/application/userguide/what-is-application-auto-scaling.html"
+    },
     "application-insights": {},
-    "appmesh": {},
-    "appstream": {},
-    "appsync": {},
-    "athena": {},
-    "autoscaling": {},
+    "appmesh": {
+        "api": "https://docs.aws.amazon.com/app-mesh/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/appmesh/index.html",
+        "console": "https://console.aws.amazon.com/appmesh/home",
+        "getting-started": "https://docs.aws.amazon.com/app-mesh/latest/userguide/appmesh-getting-started.html",
+        "pricing": "https://aws.amazon.com/app-mesh/pricing",
+        "user-guide": "https://docs.aws.amazon.com/app-mesh/latest/userguide/what-is-app-mesh.html"
+    },
+    "appstream": {
+        "api": "https://docs.aws.amazon.com/appstream2/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/appstream/index.html",
+        "console": "https://console.aws.amazon.com/appstream2/home?region=us-east-1",
+        "developer-guide": "https://docs.aws.amazon.com/appstream2/latest/developerguide/what-is-appstream.html",
+        "getting-started": "https://docs.aws.amazon.com/appstream2/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/appstream2/pricing"
+    },
+    "appsync": {
+        "api": "https://docs.aws.amazon.com/appsync/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/appsync/index.html",
+        "console": "https://console.aws.amazon.com/appsync/home",
+        "developer-guide": "https://docs.aws.amazon.com/appsync/latest/devguide/welcome.html",
+        "pricing": "https://aws.amazon.com/appsync/pricing"
+    },
+    "athena": {
+        "api": "https://docs.aws.amazon.com/athena/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/athena/index.html",
+        "console": "https://console.aws.amazon.com/athena/home",
+        "getting-started": "https://docs.aws.amazon.com/athena/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/athena/pricing",
+        "user-guide": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html"
+    },
+    "autoscaling": {
+        "api": "https://docs.aws.amazon.com/autoscaling/ec2/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/autoscaling/index.html",
+        "console": "https://console.aws.amazon.com/ec2/autoscaling/home",
+        "getting-started": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/GettingStartedTutorial.html",
+        "pricing": "https://aws.amazon.com/autoscaling/pricing",
+        "user-guide": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html"
+    },
     "autoscaling-plans": {},
     "backup": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/backup/index.html",
@@ -31,7 +112,15 @@
     },
     "budgets": {},
     "ce": {},
-    "chime": {},
+    "chime": {
+        "api": "https://docs.aws.amazon.com/chime/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/chime/index.html",
+        "console": "https://chime.aws.amazon.com/console/index.jsp",
+        "developer-guide": "https://docs.aws.amazon.com/chime/latest/dg/what-is-chime.html",
+        "getting-started": "https://docs.aws.amazon.com/chime/latest/ug/chime-getting-started.html",
+        "pricing": "https://aws.amazon.com/chime/pricing",
+        "user-guide": "https://docs.aws.amazon.com/chime/latest/ug/what-is-chime.html"
+    },
     "cloud9": {
         "api": "https://docs.aws.amazon.com/cloud9/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloud9/index.html",
@@ -48,14 +137,62 @@
         "getting-started": "https://docs.aws.amazon.com/clouddirectory/latest/developerguide/getting_started.html",
         "pricing": "https://aws.amazon.com/cloud-directory/pricing"
     },
-    "cloudformation": {},
-    "cloudfront": {},
-    "cloudhsm": {},
-    "cloudhsmv2": {},
-    "cloudsearch": {},
+    "cloudformation": {
+        "api": "https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html",
+        "console": "https://console.aws.amazon.com/cloudformation/home",
+        "getting-started": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/GettingStarted.html",
+        "pricing": "https://aws.amazon.com/cloudformation/pricing",
+        "user-guide": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"
+    },
+    "cloudfront": {
+        "api": "https://docs.aws.amazon.com/cloudfront/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudfront/index.html",
+        "console": "https://console.aws.amazon.com/cloudfront/home",
+        "developer-guide": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+        "getting-started": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html",
+        "pricing": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CloudFrontPricing.html"
+    },
+    "cloudhsm": {
+        "api": "https://docs.aws.amazon.com/cloudhsm/classic/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudhsm/index.html",
+        "console": "https://console.aws.amazon.com/cloudhsm/home",
+        "getting-started": "https://docs.aws.amazon.com/cloudhsm/classic/userguide/cloud-hsm-get-started.html",
+        "pricing": "https://aws.amazon.com/cloudhsm/pricing",
+        "user-guide": "https://docs.aws.amazon.com/cloudhsm/classic/userguide/cloud-hsm-overview.html"
+    },
+    "cloudhsmv2": {
+        "api": "",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudhsmv2/index.html",
+        "console": "https://console.aws.amazon.com/cloudhsm/home",
+        "getting-started": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/cloudhsm/pricing",
+        "user-guide": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html"
+    },
+    "cloudsearch": {
+        "api": "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/api-ref.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudsearch/index.html",
+        "console": "https://console.aws.amazon.com/cloudsearch/home",
+        "developer-guide": "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html",
+        "getting-started": "https://docs.aws.amazon.com/cloudsearch/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/cloudsearch/pricing"
+    },
     "cloudsearchdomain": {},
-    "cloudtrail": {},
-    "cloudwatch": {},
+    "cloudtrail": {
+        "api": "https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudtrail/index.html",
+        "console": "https://console.aws.amazon.com/cloudtrail/home",
+        "pricing": "https://aws.amazon.com/cloudtrail/pricing",
+        "user-guide": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html"
+    },
+    "cloudwatch": {
+        "api": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/index.html",
+        "console": "https://console.aws.amazon.com/cloudwatch/home",
+        "getting-started": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingStarted.html",
+        "pricing": "https://aws.amazon.com/cloudwatch/pricing",
+        "user-guide": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+    },
     "codebuild": {
         "api": "https://docs.aws.amazon.com/codebuild/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html",
@@ -71,6 +208,21 @@
         "getting-started": "https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-topnode.html",
         "pricing": "https://aws.amazon.com/codecommit/pricing",
         "user-guide": "https://docs.aws.amazon.com/codecommit/latest/userguide/index.html"
+    },
+    "codeguru-reviewer":{
+        "api": "https://docs.aws.amazon.com/codeguru/latest/reviewer-api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/codeguru-reviewer/index.html",
+        "console": "https://console.aws.amazon.com/codeguru/reviewer/#/associations",
+        "getting-started": "https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/getting-started-with-guru.html",
+        "pricing": "https://aws.amazon.com/codeguru/pricing",
+        "user-guide": "https://docs.aws.amazon.com/codeguru/latest/reviewer-ug/welcome.html"
+    },
+    "codeguruprofiler": {
+        "api": "https://docs.aws.amazon.com/codeguru/latest/profiler-api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/codeguruprofiler/index.html",
+        "console": "https://console.aws.amazon.com/codeguru/profiler/search",
+        "pricing": "https://aws.amazon.com/codeguru/pricing",
+        "user-guide": "https://docs.aws.amazon.com/codeguru/latest/profiler-ug/what-is-codeguru-profiler.html"
     },
     "codepipeline": {
         "api": "https://docs.aws.amazon.com/codepipeline/latest/APIReference/Welcome.html",
@@ -113,16 +265,66 @@
         "getting-started": "https://docs.aws.amazon.com/cognito/latest/developerguide/getting-started-with-cognito-sync.html",
         "pricing": "https://aws.amazon.com/cognito/pricing"
     },
-    "comprehend": {},
+    "": {
+        "api": "https://docs.aws.amazon.com/comprehend/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/comprehend/index.html",
+        "console": "https://console.aws.amazon.com/comprehend/v2/home",
+        "developer-guide": "https://docs.aws.amazon.com/comprehend/latest/dg/comprehend-general.html",
+        "getting-started": "https://docs.aws.amazon.com/comprehend/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/comprehend/pricing"
+    },
     "comprehendmedical": {},
-    "configservice": {},
+    "compute-optimizer":{
+        "api": "https://docs.aws.amazon.com/compute-optimizer/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/compute-optimizer/index.html",
+        "console": "https://console.aws.amazon.com/compute-optimizer/home",
+        "getting-started": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/compute-optimizer/pricing",
+        "user-guide": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is.html"
+    },
+    "configservice": {
+        "api": "https://docs.aws.amazon.com/config/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/configservice/index.html",
+        "console": "https://console.aws.amazon.com/config/home",
+        "developer-guide": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+        "getting-started": "https://docs.aws.amazon.com/config/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/config/pricing"
+    },
     "configure": {},
-    "connect": {},
+    "connect": {
+        "api": "https://docs.aws.amazon.com/connect/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/connect/index.html",
+        "console": "https://console.aws.amazon.com/connect",
+        "pricing": "https://aws.amazon.com/connect/pricing"
+    },
     "connectparticipant": {},
     "cur": {},
-    "dataexchange": {},
-    "datapipeline": {},
-    "datasync": {},
+    "dataexchange": {
+        "api": [
+            "https://docs.aws.amazon.com/data-exchange/latest/apireference/welcome.html",
+            "https://docs.aws.amazon.com/data-exchange/latest/userguide/appendices.html"
+        ],
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/dataexchange/index.html",
+        "console": "https://console.aws.amazon.com/dataexchange/home",
+        "pricing": "https://aws.amazon.com/data-exchange/pricing",
+        "user-guide": "https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html"
+    },
+    "datapipeline": {
+        "api": "https://docs.aws.amazon.com/datapipeline/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/datapipeline/index.html",
+        "console": "https://console.aws.amazon.com/datapipeline/home",
+        "developer-guide": "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html",
+        "getting-started": "https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-getting-started.html",
+        "pricing": "https://aws.amazon.com/datapipeline/pricing"
+    },
+    "datasync": {
+        "api": "https://docs.aws.amazon.com/datasync/latest/userguide/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/datasync/index.html",
+        "console": "https://console.aws.amazon.com/datasync/home",
+        "getting-started": "https://docs.aws.amazon.com/datasync/latest/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/datasync/pricing",
+        "user-guide": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html"
+    },
     "dax": {},
     "deploy": {
         "api": "https://docs.aws.amazon.com/codedeploy/latest/APIReference/Welcome.html",
@@ -138,11 +340,45 @@
         "pricing": "https://aws.amazon.com/detective/pricing/",
         "user-guide": "https://docs.aws.amazon.com/detective/latest/userguide/detective-investigation-about.html"
     },
-    "devicefarm": {},
-    "directconnect": {},
-    "discovery": {},
-    "dlm": {},
-    "dms": {},
+    "devicefarm": {
+        "api": "https://docs.aws.amazon.com/devicefarm/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/devicefarm/index.html",
+        "console": "https://us-west-2.console.aws.amazon.com/devicefarm/home",
+        "developer-guide": "https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/devicefarm/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/device-farm/pricing"
+    },
+    "directconnect": {
+        "api": "https://docs.aws.amazon.com/directconnect/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/directconnect/index.html",
+        "console": "https://console.aws.amazon.com/directconnect/v2/home",
+        "pricing": "https://aws.amazon.com/directconnect/pricing",
+        "user-guide": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html"
+    },
+    "discovery": {
+        "api": "https://docs.aws.amazon.com/application-discovery/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/discovery/index.html",
+        "console": "https://console.aws.amazon.com/discovery/home",
+        "getting-started": "https://docs.aws.amazon.com/application-discovery/latest/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/application-discovery/pricing",
+        "user-guide": "https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html"
+    },
+    "dlm": {
+        "api": "https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/dlm/index.html",
+        "console": "https://console.aws.amazon.com/ec2/v2/home?#Lifecycle",
+        "getting-started": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html",
+        "pricing": "https://aws.amazon.com/ebs/pricing",
+        "user-guide": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html"
+    },
+    "dms": {
+        "api": "https://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/dms/index.html",
+        "console": "https://console.aws.amazon.com/dms/v2/home",
+        "getting-started": "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_GettingStarted.html",
+        "pricing": "https://aws.amazon.com/dms/pricing",
+        "user-guide": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html"
+    },
     "docdb": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/docdb/",
         "console": "https://console.aws.amazon.com/docdb/home",
@@ -234,13 +470,71 @@
         "getting-started": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html",
         "pricing": "https://aws.amazon.com/elasticbeanstalk/pricing"
     },
-    "elastictranscoder": {},
-    "elb": {},
-    "elbv2": {},
-    "emr": {},
-    "es": {},
-    "events": {},
-    "firehose": {},
+    "elastictranscoder": {
+        "api": "https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/api-reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/elastictranscoder/index.html",
+        "console": "https://console.aws.amazon.com/elastictranscoder/home",
+        "developer-guide": "https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/introduction.html",
+        "getting-started": "https://docs.aws.amazon.com/elastictranscoder/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/elastictranscoder/pricing"
+    },
+    "elb": {
+        "api": "https://docs.aws.amazon.com/elasticloadbalancing/2012-06-01/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/elb/",
+        "console": "https://console.aws.amazon.com/ec2/home?#LoadBalancers:",
+        "getting-started": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/load-balancer-getting-started.html",
+        "developer-guide": "",
+        "pricing": "https://aws.amazon.com/elasticloadbalancing/pricing",
+        "user-guide": [
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html"
+        ]
+    },
+    "elbv2": {
+        "api": "https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/elbv2/",
+        "console": "https://console.aws.amazon.com/ec2/home?#LoadBalancers:",
+        "getting-started": [
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/load-balancer-getting-started.html",
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html"
+        ],
+        "pricing": "https://aws.amazon.com/elasticloadbalancing/pricing",
+        "user-guide": [
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+            "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html"
+        ]
+    },
+    "emr": {
+        "api": "https://docs.aws.amazon.com/emr/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/emr/index.html",
+        "console": "https://console.aws.amazon.com/elasticmapreduce/home",
+        "getting-started": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html",
+        "pricing": "https://aws.amazon.com/emr/pricing",
+        "user-guide": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html"
+    },
+    "es": {
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/es/index.html",
+        "console": "https://console.aws.amazon.com/es/home",
+        "developer-guide": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-amazon-elasticsearch-service.html",
+        "getting-started": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-gsg.html",
+        "pricing": "https://aws.amazon.com/elasticsearch-service/pricing"
+    },
+    "events": {
+        "api": "https://docs.aws.amazon.com/eventbridge/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/events/index.html",
+        "console": "https://console.aws.amazon.com/events/home",
+        "getting-started": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-getting-set-up.html",
+        "pricing": "https://aws.amazon.com/eventbridge/pricing",
+        "user-guide": "https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html"
+    },
+    "firehose": {
+        "api": "https://docs.aws.amazon.com/firehose/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/firehose/index.html",
+        "console": "https://console.aws.amazon.com/kinesis/home",
+        "developer-guide": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+        "pricing": "https://aws.amazon.com/kinesis/data-firehose/pricing"
+    },
     "fms": {
         "api": "https://docs.aws.amazon.com/fms/2018-01-01/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/fms/index.html",
@@ -249,8 +543,23 @@
         "getting-started": "https://docs.aws.amazon.com/waf/latest/developerguide/getting-started-fms.html",
         "pricing": "https://aws.amazon.com/firewall-manager/pricing/"
     },
-    "forecast": {},
+    "forecast": {
+        "api": "https://docs.aws.amazon.com/forecast/latest/dg/api-reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/forecast/index.html",
+        "console": "https://console.aws.amazon.com/forecast/home",
+        "developer-guide": "https://docs.aws.amazon.com/forecast/latest/dg/what-is-forecast.html",
+        "getting-started": "https://docs.aws.amazon.com/forecast/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/forecast/pricing"
+    },
     "forecastquery": {},
+    "frauddetector": {
+        "api": "https://docs.aws.amazon.com/frauddetector/latest/api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/frauddetector/index.html",
+        "console": "https://console.aws.amazon.com/frauddetector/home",
+        "getting-started": "https://docs.aws.amazon.com/frauddetector/latest/ug/get-started.html",
+        "pricing": "https://aws.amazon.com/fraud-detector/pricing",
+        "user-guide": "https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-frauddetector.html"
+    },
     "fsx": {
         "api": "https://docs.aws.amazon.com/fsx/latest/APIReference/welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/fsx/index.html",
@@ -260,7 +569,7 @@
         "user-guide": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html"
     },
     "gamelift": {
-        "api": "https://docs.aws.amazon.com/gamelift/latest/apireference/Welcome.html"   ,
+        "api": "https://docs.aws.amazon.com/gamelift/latest/apireference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/gamelift/index.html",
         "console": "https://console.aws.amazon.com/gamelift",
         "developer-guide": "https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-intro.html",
@@ -274,9 +583,30 @@
         "getting-started": "https://docs.aws.amazon.com/amazonglacier/latest/dev/amazon-glacier-getting-started.html",
         "pricing": "https://aws.amazon.com/glacier/pricing"
     },
-    "globalaccelerator": {},
-    "glue": {},
-    "greengrass": {},
+    "globalaccelerator": {
+        "api": "https://docs.aws.amazon.com/global-accelerator/latest/api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/globalaccelerator/index.html",
+        "console": "https://console.aws.amazon.com/ec2/v2/home?#GlobalAcceleratorHome:",
+        "developer-guide": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html",
+        "getting-started": "https://docs.aws.amazon.com/global-accelerator/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/global-accelerator/pricing"
+    },
+    "glue": {
+        "api": "https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/glue/index.html",
+        "console": "https://console.aws.amazon.com/glue/home",
+        "developer-guide": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+        "getting-started": "https://docs.aws.amazon.com/glue/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/glue/pricing"
+    },
+    "greengrass": {
+        "api": "https://docs.aws.amazon.com/greengrass/latest/apireference/api-doc.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/greengrass/index.html",
+        "console": "https://us-east-1.console.aws.amazon.com/iot/home?#/greengrassIntro",
+        "developer-guide": "https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html",
+        "getting-started": "https://docs.aws.amazon.com/greengrass/latest/developerguide/gg-gs.html",
+        "pricing": "https://aws.amazon.com/greengrass/pricing"
+    },
     "groundstation": {
         "api": "https://docs.aws.amazon.com/ground-station/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/groundstation/index.html",
@@ -292,7 +622,16 @@
         "pricing": "https://aws.amazon.com/guardduty/pricing",
         "user-guide": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html"
     },
-    "health": {},
+    "health": {
+        "api": "https://docs.aws.amazon.com/health/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/health/index.html",
+        "console": "https://phd.aws.amazon.com/phd/home",
+        "getting-started": [
+            "https://docs.aws.amazon.com/health/latest/ug/getting-started-phd.html",
+            "https://docs.aws.amazon.com/health/latest/ug/getting-started-api.html"
+        ],
+        "user-guide": "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html"
+    },
     "history": {},
     "iam": {
         "api": "https://docs.aws.amazon.com/IAM/latest/APIReference/Welcome.html",
@@ -321,21 +660,111 @@
     },
     "iot-data": {},
     "iot-jobs-data": {},
-    "iot1click-devices": {},
-    "iotanalytics": {},
-    "iotevents": {},
+    "iot1click-devices": {
+        "api": "https://docs.aws.amazon.com/iot-1-click/1.0/devices-apireference/what-is-iot.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/iot1click-devices/index.html",
+        "console": "https://console.aws.amazon.com/iot1click/home?#/devices",
+        "developer-guide": "https://docs.aws.amazon.com/iot-1-click/latest/developerguide/what-is-1click.html",
+        "getting-started": "https://docs.aws.amazon.com/iot-1-click/latest/developerguide/claiming-devices.html",
+        "pricing": "https://aws.amazon.com/iot-1-click/pricing"
+    },
+    "iot1click-projects": {
+        "api": "https://docs.aws.amazon.com/iot-1-click/latest/projects-apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/iot1click-projects/index.html",
+        "console": "https://console.aws.amazon.com/iot1click/home?#/projects",
+        "developer-guide": "https://docs.aws.amazon.com/iot-1-click/latest/developerguide/what-is-1click.html",
+        "getting-started": "https://docs.aws.amazon.com/iot-1-click/latest/developerguide/creating-projects.html",
+        "pricing": "https://aws.amazon.com/iot-1-click/pricing"
+    },
+    "iotanalytics": {
+        "api": "https://docs.aws.amazon.com/iotanalytics/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/iotanalytics/index.html",
+        "console": "https://console.aws.amazon.com/iotanalytics",
+        "getting-started": "https://docs.aws.amazon.com/iotanalytics/latest/userguide/quickstart.html",
+        "pricing": "https://aws.amazon.com/iot-analytics/pricing",
+        "user-guide": "https://docs.aws.amazon.com/iotanalytics/latest/userguide/welcome.html"
+    },
+    "iotevents": {
+        "api": "https://docs.aws.amazon.com/iotevents/latest/apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/iotevents/index.html",
+        "console": "https://console.aws.amazon.com/iotevents",
+        "developer-guide": "https://docs.aws.amazon.com/iotevents/latest/developerguide/what-is-iotevents.html",
+        "getting-started": "https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-getting-started.html",
+        "pricing": "https://aws.amazon.com/iot-events/pricing"
+    },
     "iotevents-data": {},
     "iotsecuretunneling": {},
-    "iotthingsgraph": {},
-    "kafka": {},
-    "kinesis": {},
-    "kinesis-video-archived-media": {},
-    "kinesis-video-media": {},
+    "iotthingsgraph": {
+        "api": "https://docs.aws.amazon.com/thingsgraph/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/iotthingsgraph/index.html",
+        "console": "https://console.aws.amazon.com/thingsgraph",
+        "getting-started": "https://docs.aws.amazon.com/thingsgraph/latest/ug/iot-tg-gs.html",
+        "pricing": "https://aws.amazon.com/iot-things-graph/pricing/",
+        "user-guide": "https://docs.aws.amazon.com/thingsgraph/latest/ug/iot-tg-whatis.html"
+    },
+    "kafka": {
+        "api": "https://docs.aws.amazon.com/msk/1.0/apireference/what-is-msk.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kafka/index.html",
+        "console": "https://console.aws.amazon.com/msk/home",
+        "developer-guide": "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html",
+        "getting-started": "https://docs.aws.amazon.com/msk/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/msk/pricing"
+    },
+    "kendra": {
+        "api": "https://docs.aws.amazon.com/kendra/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kendra/index.html",
+        "console": "https://console.aws.amazon.com/kendra/home",
+        "developer-guide": "https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html",
+        "getting-started": "https://docs.aws.amazon.com/kendra/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/kendra/pricing"
+    },
+    "kinesis": {
+        "api": "https://docs.aws.amazon.com/kinesis/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html",
+        "console": "https://console.aws.amazon.com/kinesis/home",
+        "developer-guide": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+        "getting-started": "https://docs.aws.amazon.com/streams/latest/dev/getting-started.html",
+        "pricing": "https://aws.amazon.com/kinesis/data-streams/pricing/"
+    },
     "kinesisanalytics": {},
-    "kinesisanalyticsv2": {},
-    "kinesisvideo": {},
-    "kms": {},
-    "lakeformation": {},
+    "kinesisanalyticsv2": {
+        "api": "https://docs.aws.amazon.com/kinesisanalytics/latest/apiv2/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kinesisanalyticsv2/index.html",
+        "console": "https://console.aws.amazon.com/kinesis/home",
+        "developer-guide": [
+            "https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html",
+            "https://docs.aws.amazon.com/kinesisanalytics/latest/java/what-is.html"
+        ],
+        "getting-started": [
+            "https://docs.aws.amazon.com/kinesisanalytics/latest/dev/getting-started.html",
+            "https://docs.aws.amazon.com/kinesisanalytics/latest/java/getting-started.html"
+        ],
+        "pricing": "https://aws.amazon.com/kinesis/data-analytics/pricing"
+    },
+    "kinesisvideo": {
+        "api": "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kinesisvideo/index.html",
+        "console": "https://console.aws.amazon.com/kinesisvideo/home",
+        "developer-guide": "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html",
+        "getting-started": "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/kinesis/video-streams/pricing"
+    },
+    "kms": {
+        "api": "https://docs.aws.amazon.com/kms/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/kms/index.html",
+        "console": "https://console.aws.amazon.com/kms/home",
+        "developer-guide": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html",
+        "getting-started": "https://docs.aws.amazon.com/kms/latest/developerguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/kms/pricing"
+    },
+    "lakeformation": {
+        "api": "https://docs.aws.amazon.com/lake-formation/latest/dg/aws-lake-formation-api.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/lakeformation/index.html",
+        "console": "https://console.aws.amazon.com/lakeformation/home",
+        "developer-guide": "https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html",
+        "getting-started": "https://docs.aws.amazon.com/lake-formation/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/lake-formation/pricing"
+    },
     "lambda": {
         "api": "https://docs.aws.amazon.com/lambda/latest/dg/API_Reference.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/lambda/index.html",
@@ -345,7 +774,14 @@
     },
     "lex-models": {},
     "lex-runtime": {},
-    "license-manager": {},
+    "license-manager": {
+        "api": "https://docs.aws.amazon.com/license-manager/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/license-manager/index.html",
+        "console": "https://console.aws.amazon.com/license-manager/home",
+        "getting-started": "https://docs.aws.amazon.com/license-manager/latest/userguide/getting-started.html",
+        "pricing": "https://aws.amazon.com/license-manager/pricing",
+        "user-guide": "https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html"
+    },
     "lightsail": {
         "api": "https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/lightsail/index.html",
@@ -353,8 +789,21 @@
         "developer-guide": "https://lightsail.aws.amazon.com/ls/docs/en_us/all",
         "pricing": "https://aws.amazon.com/lightsail/pricing"
     },
-    "logs": {},
-    "machinelearning": {},
+    "logs": {
+        "api": "https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/logs/index.html",
+        "console": "https://console.aws.amazon.com/cloudwatch/home?#logs-home:",
+        "getting-started": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_GettingStarted.html",
+        "pricing": "https://aws.amazon.com/cloudwatch/pricing/",
+        "user-guide": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"
+    },
+    "machinelearning": {
+        "api": "https://docs.aws.amazon.com/machine-learning/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/machinelearning/index.html",
+        "console": "https://console.aws.amazon.com/machinelearning/home",
+        "developer-guide": "https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html",
+        "pricing": "https://docs.aws.amazon.com/machine-learning/latest/dg/pricing.html"
+    },
     "macie": {
         "api": "https://docs.aws.amazon.com/macie/1.0/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/macie/index.html",
@@ -372,19 +821,85 @@
     "marketplace-catalog": {},
     "marketplace-entitlement": {},
     "marketplacecommerceanalytics": {},
-    "mediaconnect": {},
-    "mediaconvert": {},
-    "medialive": {},
-    "mediapackage": {},
-    "mediapackage-vod": {},
-    "mediastore": {},
+    "mediaconnect": {
+        "api": "https://docs.aws.amazon.com/mediaconnect/latest/api/what-is-servicename.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediaconnect/index.html",
+        "console": "https://console.aws.amazon.com/mediaconnect/home",
+        "getting-started": "https://docs.aws.amazon.com/mediaconnect/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediaconnect/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediaconnect/latest/ug/what-is.html"
+    },
+    "mediaconvert": {
+        "api": "https://docs.aws.amazon.com/mediaconvert/latest/apireference/custom-endpoints.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediaconvert/index.html",
+        "console": "https://console.aws.amazon.com/mediaconvert/home",
+        "getting-started": "https://docs.aws.amazon.com/mediaconvert/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediaconvert/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediaconvert/latest/ug/what-is.html"
+    },
+    "medialive": {
+        "api": "https://docs.aws.amazon.com/medialive/latest/apireference/what-is.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/medialive/index.html",
+        "console": "https://console.aws.amazon.com/medialive/home",
+        "getting-started": "https://docs.aws.amazon.com/medialive/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/medialive/pricing",
+        "user-guide": "https://docs.aws.amazon.com/medialive/latest/ug/what-is.html"
+    },
+    "mediapackage": {
+        "api": "https://docs.aws.amazon.com/mediapackage/latest/apireference/what-is.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediapackage/index.html",
+        "console": "https://console.aws.amazon.com/mediapackage/home",
+        "getting-started": "https://docs.aws.amazon.com/mediapackage/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediapackage/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediapackage/latest/ug/what-is.html"
+    },
+    "mediapackage-vod": {
+        "api": "https://docs.aws.amazon.com/mediapackage-vod/latest/apireference/what-is-mp-vod.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediapackage-vod/index.html",
+        "console": "https://console.aws.amazon.com/mediapackage/home",
+        "getting-started": "https://docs.aws.amazon.com/mediapackage/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediapackage/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediapackage/latest/ug/what-is.html"
+    },
+    "mediastore": {
+        "api": "https://docs.aws.amazon.com/mediastore/latest/apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediastore/index.html",
+        "console": "https://console.aws.amazon.com/mediastore/home",
+        "getting-started": "https://docs.aws.amazon.com/mediastore/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediastore/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediastore/latest/ug/what-is.html"
+    },
     "mediastore-data": {},
-    "mediatailor": {},
+    "mediatailor": {
+        "api": "https://docs.aws.amazon.com/mediatailor/latest/apireference/what-is.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mediatailor/index.html",
+        "console": "https://console.aws.amazon.com/mediatailor/home",
+        "getting-started": "https://docs.aws.amazon.com/mediatailor/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/mediatailor/pricing",
+        "user-guide": "https://docs.aws.amazon.com/mediatailor/latest/ug/what-is.html"
+    },
     "meteringmarketplace": {},
     "mgh ": {},
-    "migrationhub-config": {},
+    "migrationhub-config": {
+        "api": [
+            "https://docs.aws.amazon.com/migrationhub/latest/ug/api-reference.html",
+            "https://docs.aws.amazon.com/migrationhub-home-region/latest/APIReference/Welcome.html"
+        ],
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/migrationhub-config/index.html",
+        "console": "https://console.aws.amazon.com/migrationhub/home",
+        "getting-started": "https://docs.aws.amazon.com/migrationhub/latest/ug/getting-started.html",
+        "pricing": "https://aws.amazon.com/migration-hub/pricing",
+        "user-guide": "https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html"
+    },
     "mobile": {},
-    "mq": {},
+    "mq": {
+        "api": "https://docs.aws.amazon.com/amazon-mq/latest/api-reference/welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/mq/index.html",
+        "console": "https://console.aws.amazon.com/amazon-mq/home",
+        "developer-guide": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-getting-started.html",
+        "pricing": "https://aws.amazon.com/amazon-mq/pricing"
+    },
     "mturk": {},
     "neptune": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/neptune/index.html",
@@ -393,9 +908,27 @@
         "pricing": "https://aws.amazon.com/neptune/pricing",
         "user-guide": "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html"
     },
-    "opsworks": {},
-    "opsworks-cm": {},
-    "organizations": {},
+    "opsworks": {
+        "api": "https://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/opsworks/index.html",
+        "console": "https://console.aws.amazon.com/opsworks/landing/home",
+        "pricing": "https://aws.amazon.com/opsworks/stacks/pricing",
+        "user-guide": "https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html"
+    },
+    "opsworks-cm": {
+        "api": "https://docs.aws.amazon.com/opsworks-cm/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/opsworks-cm/index.html",
+        "console": "https://console.aws.amazon.com/opsworks/landing/home",
+        "pricing": "https://aws.amazon.com/opsworks/chefautomate/pricing",
+        "user-guide": "https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html"
+    },
+    "organizations": {
+        "api": "https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/organizations/index.html",
+        "console": "https://console.aws.amazon.com/organizations/home",
+        "getting-started": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started.html",
+        "user-guide": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html"
+    },
     "outposts": {
         "api": "https://docs.aws.amazon.com/outposts/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/outposts",
@@ -403,14 +936,51 @@
         "pricing": "https://aws.amazon.com/outposts/pricing",
         "user-guide": "https://docs.aws.amazon.com/outposts/latest/userguide"
     },
-    "personalize": {},
+    "personalize": {
+        "api": "https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/personalize/index.html",
+        "console": "https://console.aws.amazon.com/personalize/home",
+        "developer-guide": "https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html",
+        "getting-started": "https://docs.aws.amazon.com/personalize/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/personalize/pricing"
+    },
     "personalize-events": {},
     "personalize-runtime": {},
     "pi": {},
-    "pinpoint": {},
-    "pinpoint-email": {},
-    "pinpoint-sms-voice": {},
-    "polly": {},
+    "pinpoint": {
+        "api": "",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/pinpoint/index.html",
+        "console": "https://console.aws.amazon.com/pinpoint",
+        "developer-guide": "https://docs.aws.amazon.com/pinpoint/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/pinpoint/latest/userguide/gettingstarted.html",
+        "pricing": "https://aws.amazon.com/pinpoint/pricing",
+        "user-guide": "https://docs.aws.amazon.com/pinpoint/latest/userguide/welcome.html"
+    },
+    "pinpoint-email": {
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/pinpoint-email/index.html",
+        "console": "https://console.aws.amazon.com/pinpoint",
+        "developer-guide": "https://docs.aws.amazon.com/pinpoint/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/pinpoint/latest/userguide/tutorials-send-an-email.html",
+        "pricing": "https://aws.amazon.com/pinpoint/pricing",
+        "user-guide": "https://docs.aws.amazon.com/pinpoint/latest/userguide/welcome.html"
+    },
+    "pinpoint-sms-voice": {
+        "api": "https://docs.aws.amazon.com/pinpoint-sms-voice/latest/APIReference/welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/pinpoint-sms-voice/index.html",
+        "console": "https://console.aws.amazon.com/pinpoint",
+        "developer-guide": "https://docs.aws.amazon.com/pinpoint/latest/developerguide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-setup.html",
+        "pricing": "https://aws.amazon.com/pinpoint/pricing",
+        "user-guide": "https://docs.aws.amazon.com/pinpoint/latest/userguide/welcome.html"
+    },
+    "polly": {
+        "api": "https://docs.aws.amazon.com/polly/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/polly/index.html",
+        "console": "https://console.aws.amazon.com/polly/home",
+        "developer-guide": "https://docs.aws.amazon.com/polly/latest/dg/what-is.html",
+        "getting-started": "https://docs.aws.amazon.com/polly/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/polly/pricing"
+    },
     "pricing": {},
     "qldb": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/qldb/index.html",
@@ -420,7 +990,14 @@
         "pricing": "https://aws.amazon.com/qldb/pricing/"
     },
     "qldb-session": {},
-    "quicksight": {},
+    "quicksight": {
+        "api": "https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html",
+        "console": "https://quicksight.aws.amazon.com/sn",
+        "getting-started": "https://docs.aws.amazon.com/quicksight/latest/user/getting-started.html",
+        "pricing": "https://aws.amazon.com/quicksight/pricing",
+        "user-guide": "https://docs.aws.amazon.com/quicksight/latest/user/welcome.html"
+    },
     "ram": {
         "api": "https://docs.aws.amazon.com/ram/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/ram/index.html",
@@ -452,9 +1029,27 @@
         "getting-started": "https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html",
         "pricing": "https://aws.amazon.com/redshift/pricing"
     },
-    "rekognition": {},
-    "resource-groups": {},
-    "resourcegroupstaggingapi": {},
+    "rekognition": {
+        "api": "https://docs.aws.amazon.com/rekognition/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/rekognition/index.html",
+        "console": "https://console.aws.amazon.com/rekognition/home",
+        "developer-guide": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html",
+        "getting-started": "https://docs.aws.amazon.com/rekognition/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/rekognition/pricing"
+    },
+    "resource-groups": {
+        "api": "https://docs.aws.amazon.com/ARG/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/resource-groups/index.html",
+        "console": "https://console.aws.amazon.com/resource-groups/home",
+        "getting-started": "https://docs.aws.amazon.com/ARG/latest/userguide/gettingstarted.html",
+        "user-guide": "https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html"
+    },
+    "resourcegroupstaggingapi": {
+        "api": "https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/resourcegroupstaggingapi/index.html",
+        "console": "https://console.aws.amazon.com/resource-groups/",
+        "user-guide": "https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html"
+    },
     "robomaker": {
         "api": "https://docs.aws.amazon.com/robomaker/latest/dg/API_Reference.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/robomaker/index.html",
@@ -463,7 +1058,14 @@
         "getting-started": "https://docs.aws.amazon.com/robomaker/latest/dg/getting-started.html",
         "pricing": "https://aws.amazon.com/robomaker/pricing/"
     },
-    "route53": {},
+    "route53": {
+        "api": "https://docs.aws.amazon.com/Route53/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/route53/index.html",
+        "console": "https://console.aws.amazon.com/route53/home",
+        "developer-guide": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/getting-started.html",
+        "pricing": "https://aws.amazon.com/route53/pricing"
+    },
     "route53domains": {},
     "route53resolver": {},
     "s3": {
@@ -477,7 +1079,14 @@
     },
     "s3api": {},
     "s3control": {},
-    "sagemaker": {},
+    "sagemaker": {
+        "api": "https://docs.aws.amazon.com/sagemaker/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/sagemaker/index.html",
+        "console": "https://console.aws.amazon.com/sagemaker/home",
+        "developer-guide": "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html",
+        "getting-started": "https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html",
+        "pricing": "https://aws.amazon.com/sagemaker/pricing"
+    },
     "sagemaker-runtime": {},
     "savingsplans": {},
     "sdb": {},
@@ -497,11 +1106,42 @@
         "user-guide": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html"
     },
     "serverlessrepo": {},
-    "service-quotas": {},
-    "servicecatalog": {},
-    "servicediscovery": {},
-    "ses": {},
-    "sesv2": {},
+    "service-quotas": {
+        "api": "https://docs.aws.amazon.com/servicequotas/2019-06-24/apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/service-quotas/index.html",
+        "console": "https://console.aws.amazon.com/servicequotas/home",
+        "getting-started": "https://docs.aws.amazon.com/servicequotas/latest/userguide/getting-started.html",
+        "user-guide": "https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html"
+    },
+    "servicecatalog": {
+        "api": "https://docs.aws.amazon.com/servicecatalog/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/servicecatalog/index.html",
+        "console": "https://console.aws.amazon.com/servicecatalog/home",
+        "developer-guide": "https://docs.aws.amazon.com/servicecatalog/latest/dg/what-is-service-catalog.html",
+        "pricing": "https://aws.amazon.com/servicecatalog/pricing",
+        "user-guide": "https://docs.aws.amazon.com/servicecatalog/latest/userguide/end-user-console.html"
+    },
+    "servicediscovery": {
+        "api": "https://docs.aws.amazon.com/cloud-map/latest/api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/servicediscovery/index.html",
+        "console": "https://console.aws.amazon.com/cloudmap/home",
+        "developer-guide": "https://docs.aws.amazon.com/cloud-map/latest/dg/what-is-cloud-map.html",
+        "pricing": "https://aws.amazon.com/cloud-map/pricing"
+    },
+    "ses": {
+        "api": "https://docs.aws.amazon.com/ses/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/ses/index.html",
+        "console": "https://console.aws.amazon.com/ses/home",
+        "developer-guide": "https://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html",
+        "pricing": "https://aws.amazon.com/ses/pricing/"
+    },
+    "sesv2": {
+        "api": "https://docs.aws.amazon.com/ses/latest/APIReference-V2/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/sesv2/index.html",
+        "console": "https://console.aws.amazon.com/ses/home",
+        "developer-guide": "https://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html",
+        "pricing": "https://aws.amazon.com/ses/pricing/"
+    },
     "shield": {
         "api": "https://docs.aws.amazon.com/waf/latest/DDOSAPIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/shield/index.html",
@@ -521,8 +1161,22 @@
         "pricing": "https://aws.amazon.com/snowball/pricing",
         "user-guide": "https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html"
     },
-    "sns": {},
-    "sqs": {},
+    "sns": {
+        "api": "https://docs.aws.amazon.com/sns/latest/api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/sns/index.html",
+        "console": "https://console.aws.amazon.com/sns/v2/home",
+        "developer-guide": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html",
+        "pricing": "https://aws.amazon.com/sns/pricing"
+    },
+    "sqs": {
+        "api": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/sqs/index.html",
+        "console": "https://console.aws.amazon.com/sqs/home",
+        "developer-guide": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-getting-started.html",
+        "pricing": "https://aws.amazon.com/sqs/pricing"
+    },
     "ssm": {},
     "sso": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/sso/index.html",
@@ -531,7 +1185,14 @@
         "user-guide": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
     },
     "sso-oidc": {},
-    "stepfunctions": {},
+    "stepfunctions": {
+        "api": "https://docs.aws.amazon.com/step-functions/latest/apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/stepfunctions/index.html",
+        "console": "https://console.aws.amazon.com/states/home",
+        "developer-guide": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/step-functions/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/step-functions/pricing"
+    },
     "storagegateway": {
         "api": "https://docs.aws.amazon.com/storagegateway/latest/APIReference/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/storagegateway/index.html",
@@ -542,11 +1203,39 @@
     },
     "sts": {},
     "support": {},
-    "swf": {},
-    "textract": {},
-    "transcribe": {},
+    "swf": {
+        "api": "https://docs.aws.amazon.com/amazonswf/latest/apireference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/swf/index.html",
+        "console": "https://console.aws.amazon.com/swf/home",
+        "developer-guide": "https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-welcome.html",
+        "getting-started": "https://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-sns-tutorial.html",
+        "pricing": "https://aws.amazon.com/swf/pricing"
+    },
+    "textract": {
+        "api": "https://docs.aws.amazon.com/textract/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/textract/index.html",
+        "console": "https://console.aws.amazon.com/textract/home",
+        "developer-guide": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+        "getting-started": "https://docs.aws.amazon.com/textract/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/textract/pricing"
+    },
+    "transcribe": {
+        "api": "https://docs.aws.amazon.com/transcribe/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/transcribe/index.html",
+        "console": "https://console.aws.amazon.com/transcribe/home",
+        "developer-guide": "https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html",
+        "getting-started": "https://docs.aws.amazon.com/transcribe/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/transcribe/pricing"
+    },
     "transfer": {},
-    "translate": {},
+    "translate": {
+        "api": "https://docs.aws.amazon.com/translate/latest/dg/API_Reference.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/translate/index.html",
+        "console": "https://console.aws.amazon.com/translate/home",
+        "developer-guide": "https://docs.aws.amazon.com/translate/latest/dg/what-is.html",
+        "getting-started": "https://docs.aws.amazon.com/translate/latest/dg/getting-started.html",
+        "pricing": "https://aws.amazon.com/translate/pricing"
+    },
     "waf": {
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/waf/index.html"
     },
@@ -560,11 +1249,38 @@
         "developer-guide": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html",
         "pricing": "https://aws.amazon.com/waf/pricing"
     },
-    "workdocs": {},
-    "worklink": {},
-    "workmail": {},
+    "workdocs": {
+        "api": "https://docs.aws.amazon.com/workdocs/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/workdocs/index.html",
+        "console": "https://console.aws.amazon.com/zocalo/home",
+        "developer-guide": "https://docs.aws.amazon.com/workdocs/latest/developerguide/what_is.html",
+        "getting-started": "https://docs.aws.amazon.com/workdocs/latest/userguide/getting_started.html",
+        "pricing": "https://aws.amazon.com/workdocs/pricing",
+        "user-guide": "https://docs.aws.amazon.com/workdocs/latest/userguide/what_is.html"
+    },
+    "worklink": {
+        "api": "https://docs.aws.amazon.com/worklink/latest/api/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/worklink/index.html",
+        "console": "https://console.aws.amazon.com/worklink/home",
+        "getting-started": "https://docs.aws.amazon.com/worklink/latest/ag/getting-started.html",
+        "pricing": "https://aws.amazon.com/worklink/pricing",
+        "user-guide": "https://docs.aws.amazon.com/worklink/latest/ag/what-is.html"
+    },
+    "workmail": {
+        "api": "https://docs.aws.amazon.com/workmail/latest/APIReference/Welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/workmail/index.html",
+        "console": "https://console.aws.amazon.com/workmail/home",
+        "pricing": "https://aws.amazon.com/workmail/pricing",
+        "user-guide": "https://docs.aws.amazon.com/workmail/latest/userguide/what_is.html"
+    },
     "workmailmessageflow": {},
-    "workspaces": {},
+    "workspaces": {
+        "api": "https://docs.aws.amazon.com/workspaces/latest/api/welcome.html",
+        "cli": "https://docs.aws.amazon.com/cli/latest/reference/workspaces/index.html",
+        "console": "https://console.aws.amazon.com/workspaces/home",
+        "getting-started": "https://docs.aws.amazon.com/workspaces/latest/userguide/workspaces-user-getting-started.html",
+        "pricing": "https://aws.amazon.com/workspaces/pricing"
+    },
     "xray": {
         "api": "https://docs.aws.amazon.com/xray/latest/api/Welcome.html",
         "cli": "https://docs.aws.amazon.com/cli/latest/reference/xray/index.html",
