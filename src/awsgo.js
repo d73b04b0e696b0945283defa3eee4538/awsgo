@@ -31,9 +31,9 @@ function main(argv) {
     }
 
     // Choose the browser & webpage to open
-    const browser = firefoxPath ? firefoxPath + " " + firefoxOptions.join(" ")
-        : chromePath ? chromePath + " " + chromeOptions.join(" ")
-            : chromiumPath ? chromiumPath + " " + chromiumOptions.join(" ")
+    const browser = firefoxPath ? "firefox" + " " + firefoxOptions.join(" ")
+        : chromePath ? "google-chrome" + " " + chromeOptions.join(" ")
+            : chromiumPath ? "chromium-browser" + " " + chromiumOptions.join(" ")
                 : null;
     const service = argv.service;
 
@@ -88,9 +88,8 @@ function openServicePage(argv, browser, serviceLinks) {
 function open(browser, link) {
     const links = Array.isArray(link) ? link : [link];
     shell.exec(
-        `${browser} ${links.join(" ")} &> /dev/null`,
-        { silent: true },
-        () => { }
+        `${browser} ${links.join(" ")}`,
+        { silent: false }
     );
 }
 
