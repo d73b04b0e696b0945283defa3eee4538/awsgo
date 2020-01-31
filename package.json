@@ -1,6 +1,6 @@
 {
   "name": "awsgo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "awsgo makes AWS cli command reference, api reference, management console, pricing, user and developer's guide links avilable to open from your command line.",
   "main": "index.js",
   "scripts": {
